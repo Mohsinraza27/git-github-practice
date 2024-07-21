@@ -30,7 +30,7 @@ Passionate about automating and optimizing mission-critical deployments in AWS, 
 ## Contact Me
 
 - **LinkedIn:** [Mohsin Raza](https://www.linkedin.com/in/mohsin-raza)
-- **Email:** [mohsin.raza@example.com](mailto:mohsin.raza@example.com)
+- **Email:** [mohsin.raza@gmail.com](mailto:mohsinraza4319520@gmail.com)
 
 ## License
 
