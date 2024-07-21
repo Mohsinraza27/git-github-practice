@@ -1,6 +1,6 @@
 # Mohsin Raza
 
-![Header](https://via.placeholder.com/1200x300?text=Welcome+to+Mohsin+Raza's+GitHub)
+![Header](Github.png)
 
 ## About Me
 
