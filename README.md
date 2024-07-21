@@ -1,8 +1,9 @@
 # Mohsin Raza
 
-![Header](Github.png)
+![Header](https://github.com/Mohsinraza27/git-github-practice/blob/master/GitHub.png)
 
 ## About Me
+![Mohsin Raza](./profile.jpg)
 
 **Mohsin Raza**  
 *DevOps Engineer*
