@@ -1,67 +1,94 @@
-/* Basic reset */
-body, h1, h2, p {
+/* General styling for the entire document */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    color: #333;
 }
 
-body {
-    background: linear-gradient(135deg, #f06, #4a90e2);
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
+/* Container for main content */
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    background: rgba(0, 0, 0, 0.6);
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
     padding: 20px;
-    border-radius: 10px;
 }
 
-h1 {
-    font-size: 3em;
-    font-weight: bold;
-    margin-bottom: 10px;
+/* Header section */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Section titles */
 h2 {
-    font-size: 2em;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
-p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
+/* Profile image */
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 20px auto;
 }
 
-.header-image {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.skills, .projects {
-    text-align: left;
-}
-
-ul {
+/* Skill list */
+.skills {
     list-style: none;
+    padding: 0;
 }
 
-li {
-    font-size: 1.2em;
-    margin-bottom: 10px;
+.skills li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid #333;
 }
 
-a {
-    color: #4a90e2;
+/* Contact section */
+.contact {
+    margin: 20px 0;
+}
+
+.contact a {
+    color: #333;
     text-decoration: none;
-    font-weight: bold;
 }
 
-a:hover {
+.contact a:hover {
     text-decoration: underline;
+}
+
+/* License section */
+.license {
+    background: #e4e4e4;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
 }
